@@ -9,14 +9,19 @@ const Main = () => {
           </h1>
         </div>
         <div className="row2">
-          <h2>Find your Books</h2>
+          <h2>Find Your Book</h2>
           <div className="search">
             <input type="text" placeholder="Enter your book name"></input>
             <button>
               <i class="fas fa-search"></i>
             </button>
           </div>
+          <img src="./images/book.jpg" alt=" " />
         </div>
+      </div>
+
+      <div className = "container">
+
       </div>
     </>
   );
